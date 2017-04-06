@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int l = 1;
         int tingkat = 10;
-        int n = 12 / 2;
+        int n = 6 / 2;
         for (int i = 1; i <= n; i++) {
             for (int k = n; k > i; k--) {
                 System.out.print(" ");
