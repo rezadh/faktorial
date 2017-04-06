@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int l = 1;
-        int tingkat = 10;
-        int n = 6 / 2;
+        int l = 2;
+        int tingkat = 100;
+        int n = 18 / 2;
         for (int i = 1; i <= n; i++) {
             for (int k = n; k > i; k--) {
                 System.out.print(" ");
