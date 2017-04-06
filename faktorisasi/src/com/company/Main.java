@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
         int l = 2;
-        int tingkat = 100;
-        int n = 18 / 2;
+        int tingkat = 20;
+        int n = 18 / 3;
         for (int i = 1; i <= n; i++) {
             for (int k = n; k > i; k--) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= l; j++) {
-                System.out.print("+");
+                System.out.print("#");
             }
             l += 2;
 
